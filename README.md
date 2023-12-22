@@ -12,10 +12,11 @@ This project will use the data taken from yahoo finance by importing `yfinance` 
 
 ### Project Structure
 
-There are two folders in this repository: `images`, `src`.
+There are two folders in this repository: `images` and `src`.
 
-- [images](https://github.com/alvionna/twitter-comment-classification/blob/main/images) contains the images that I displayed in this README file.
-- [src](https://github.com/alvionna/stock-market-prediction/blob/main/src) ontains the coding files for this project.
+- [images](https://github.com/alvionna/stock-market-prediction/blob/main/images) contains the images that I displayed in this README file.
+  - To see the complete graphs of this project, please go to `main.ipynb` in the [src](https://github.com/alvionna/stock-market-prediction/blob/main/src) file.
+- [src](https://github.com/alvionna/stock-market-prediction/blob/main/src) contains the coding files for this project.
   - There is only one file in this folder: `main.ipynb`. This file is the heart of this project.
 
 ## Learning Focus
@@ -36,18 +37,17 @@ There are two folders in this repository: `images`, `src`.
 ### Data Analysis
 
 As of December 20th, 2023, there is 1004 rows in the dataset. This means that the dataset does not record any data happening in the weekends.
-![df_describe](https://github.com/alvionna/twitter-comment-classification/blob/main/images/df_describe.png)
+![df_describe](https://github.com/alvionna/stock-market-prediction/blob/main/images/df_describe.png)
 
 ### Stock Analysis
 
 In this analysis, I tried to answer several questions related to stock analysis:
 
-1. What was the change in proce of the stocks overtime?
-2. What was the moving average of the various stocks?
-3. What are the trends of the various stocks?
-4. What was the average daily return of the stock?
-5. What was the correlation between different stocks' closing prices?
-6. How much value do we put at risk by investing a particular stock?
+1. [What was the change in price of the stocks overtime?](####What-was-the-change-in-price-of-the-stocks-overtime?)
+2. [What was the moving average of the various stocks?](<####What-was-the-moving-average-of-the-various-stocks?-(What-are-the-trends?)>)
+3. [What was the average daily return of the stock?](####What-was-the-average-daily-return-of-the-stock?)
+4. [What was the correlation between different stocks' closing prices?](####What-was-the-correlation-between-different-stocks'-closing-prices?)
+5. [How much value do we put at risk by investing a particular stock?](####How-much-value-do-we-put-at-risk-by-investing-a-particular-stock?)
 
 #### What was the change in price of the stocks overtime?
 
@@ -103,3 +103,13 @@ In this analysis, I tried to answer several questions related to stock analysis:
 #### How much value do we put at risk by investing a particular stock?
 
 ### Stock Prediction
+
+#### Apple
+
+![apple-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/apple_stock_pred.png)
+
+#### Microsoft
+
+#### Google
+
+#### Amazon
