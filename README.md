@@ -14,7 +14,7 @@ This project will use the data taken from yahoo finance by importing `yfinance` 
 
 There are two folders in this repository: `images`, `src`.
 
-- [`images`](https://github.com/alvionna/twitter-comment-classification/blob/main/images) contains the images that I displayed in this README file.
+- [images](https://github.com/alvionna/twitter-comment-classification/blob/main/images) contains the images that I displayed in this README file.
 - [src](https://github.com/alvionna/stock-market-prediction/blob/main/src) ontains the coding files for this project.
   - There is only one file in this folder: `main.ipynb`. This file is the heart of this project.
 
