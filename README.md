@@ -43,11 +43,11 @@ As of December 20th, 2023, there is 1004 rows in the dataset. This means that th
 
 In this analysis, I tried to answer several questions related to stock analysis:
 
-1. [What was the change in price of the stocks overtime?](####-What-was-the-change-in-price-of-the-stocks-overtime?)
-2. [What was the moving average of the various stocks?](<####-What-was-the-moving-average-of-the-various-stocks?-(What-are-the-trends?)>)
-3. [What was the average daily return of the stock?](####-What-was-the-average-daily-return-of-the-stock?)
-4. [What was the correlation between different stocks' closing prices?](####-What-was-the-correlation-between-different-stocks'-closing-prices?)
-5. [How much value do we put at risk by investing a particular stock?](####-How-much-value-do-we-put-at-risk-by-investing-a-particular-stock?)
+1. [What was the change in price of the stocks overtime?](####what-was-the-change-in-price-of-the-stocks-overtime?)
+2. [What was the moving average of the various stocks?](<####what-was-the-moving-average-of-the-various-stocks?-(What-are-the-trends?)>>)
+3. [What was the average daily return of the stock?](####what-was-the-average-daily-return-of-the-stock?)
+4. [What was the correlation between different stocks' closing prices?](####what-was-the-correlation-between-different-stocks'-closing-prices?)
+5. [How much value do we put at risk by investing a particular stock?](####how-much-value-do-we-put-at-risk-by-investing-a-particular-stock?)
 
 #### What was the change in price of the stocks overtime?
 
