@@ -121,14 +121,14 @@ In this analysis, I tried to answer several questions related to stock analysis:
 #### Microsoft
 
 - The RMSE Value after training is 29.8
-  ![microsoft-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/microsoft_stock_pred.png)
+  ![microsoft-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/microsoft_stock_prediction.png)
 
 #### Google
 
 - The RMSE Value after training is 3.196
-  ![google-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/google_stock_pred.png)
+  ![google-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/google_stock_prediction.png)
 
 #### Amazon
 
 - The RMSE Value after training is 4.94
-  ![amazon-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/amazon_stock_pred.png)
+  ![amazon-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/amazon_stock_prediction.png)
