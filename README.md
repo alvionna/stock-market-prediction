@@ -34,8 +34,8 @@ There are two folders in this repository: `images` and `src`.
 
 ## Next Steps
 
-1. Experimented with Traditional ML models to predict future price movement
-2. Experimented with different regularization and optimization techniques for the models
+1. Experiment with Traditional ML models to predict future price movement
+2. Experiment with different regularization and optimization techniques for the models
 
 ## Experiment & Result
 
