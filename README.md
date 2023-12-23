@@ -30,7 +30,12 @@ There are two folders in this repository: `images` and `src`.
 
 1. Done with the basic analysis of the stocks
    - Except for the risk management
-2. Done with the basic model to predict future price movement using LSTM for Apple Stock
+2. Done with the basic model to predict future price movement using LSTM
+
+## Next Steps
+
+1. Experimented with Traditional ML models to predict future price movement
+2. Experimented with different regularization and optimization techniques for the models
 
 ## Experiment & Result
 
@@ -102,6 +107,10 @@ In this analysis, I tried to answer several questions related to stock analysis:
 
 #### How much value do we put at risk by investing a particular stock?
 
+- Investing in Amazon's stock poses the highest risk among the companies. However, it is also expected that Amazon's stock has the highest return among the 4 giant techs.
+  - The safest stock to invest in is the Apple's stock as it poses the lowest risk. However, Apple's stock also provides the lowest return among the companies.
+  - It's interesting to see that, while investing in Google poses a higher risk, an investor may gain a lower return compared to investing in Microsoft.
+
 ### Stock Prediction
 
 #### Apple
@@ -110,6 +119,12 @@ In this analysis, I tried to answer several questions related to stock analysis:
 
 #### Microsoft
 
+![microsoft-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/microsoft_stock_pred.png)
+
 #### Google
 
+![google-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/google_stock_pred.png)
+
 #### Amazon
+
+![amazon-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/amazon_stock_pred.png)
