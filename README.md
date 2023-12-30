@@ -34,8 +34,7 @@ There are two folders in this repository: `images` and `src`.
 
 ## Next Steps
 
-1. Experimented with Traditional ML models to predict future price movement
-2. Experimented with different regularization and optimization techniques for the models
+1. Use _StandardScaler_ rather than _MinMaxScaler_ since stock prices are ever-changing, and there are no true min or max values. While it may not lead to a disastrous event by using _MinMaxScaler_, it doesn't make sense to use _MinMaxScaler_.
 
 ## Experiment & Result
 
@@ -113,22 +112,28 @@ In this analysis, I tried to answer several questions related to stock analysis:
 
 ### Stock Prediction
 
+- We build a model to predict the future stock price for each company based on historical data, where we started from 2012.
+
+* We utilized the _closing price_ as our variable to predict the future stock price.
+
+- We utilized _Bi-LSTM_ to predict the price movements and utilized _RMSE_ as the model evaluation metric since it's essentially a regression problem.
+
 #### Apple
 
-- The RMSE Value after training is 5.084
+- The RMSE Value after training is 6.103
   ![apple-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/apple_stock_pred.png)
 
 #### Microsoft
 
-- The RMSE Value after training is 29.8
+- The RMSE Value after training is 16.946
   ![microsoft-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/microsoft_stock_pred.png)
 
 #### Google
 
-- The RMSE Value after training is 3.196
+- The RMSE Value after training is 4.065
   ![google-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/google_stock_pred.png)
 
 #### Amazon
 
-- The RMSE Value after training is 4.94
+- The RMSE Value after training is 6.969
   ![amazon-stock-pred-graph](https://github.com/alvionna/stock-market-prediction/blob/main/images/amazon_stock_pred.png)
